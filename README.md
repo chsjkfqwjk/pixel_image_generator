@@ -81,34 +81,6 @@ The program provides a friendly interactive menu interface where you can:
 
 ---
 
-## 🎯 基本语法示例 (Basic Syntax Example)
-
-像素图像生成器使用简单直观的语法来描述图像：
-
-The Pixel Image Generator uses simple and intuitive syntax to describe images:
-
-```
-# 这是注释行 (This is a comment line)
-
-# 配置图像尺寸和背景色（白色背景）
-# Configure image size and background color (white background)
-config:400\300\255\255\255
-
-# 定义颜色 (Define colors)
-color:blue\0\0\255       # 蓝色 (Blue)
-color:red\255\0\0        # 红色 (Red)
-
-# 定义区域 (Define regions)
-region:box1\50|50\150|150           # 矩形区域 (Rectangle region)
-region:circle\200|50\300|150\ellipse  # 椭圆区域 (Ellipse region)
-
-# 填充区域 (Fill regions)
-fill:box1\red      # 用红色填充第一个矩形 (Fill the first rectangle with red)
-fill:circle\blue   # 用蓝色填充椭圆 (Fill the ellipse with blue)
-```
-
----
-
 ## 🚀 高级语法功能 (Advanced Syntax Features)
 
 像素图像生成器支持多种高级语法功能：
@@ -153,40 +125,6 @@ Please help me generate a syntax file for the pixel image generator with the fol
 3. Draw a small blue circle in each of the four corners
 4. Draw a horizontal bar across the bottom with a gradient from green to yellow
 ```
-
-### ✅ AI生成的语法文件示例 (Example of AI-Generated Syntax File)
-
-```
-# 配置图像尺寸和背景色 (Configure image dimensions and background color)
-config:800\600\255\255\255
-
-# 定义颜色 (Define colors)
-color:red\255\0\0
-color:blue\0\0\255
-color:green\0\255\0
-color:yellow\255\255\0
-
-# 定义中心五角星 (Define center star)
-region:center_star\350|250\450|350\star
-fill:center_star\red
-
-# 定义四个角的圆形 (Define circles in four corners)
-region:circle_tl\20|20\60|60\ellipse
-region:circle_tr\740|20\780|60\ellipse
-region:circle_bl\20|540\60\580\ellipse
-region:circle_br\740|540\780\580\ellipse
-
-# 填充圆形 (Fill circles)
-fill:circle_tl\blue
-fill:circle_tr\blue
-fill:circle_bl\blue
-fill:circle_br\blue
-
-# 底部渐变长条 (Bottom gradient bar)
-region:bottom_bar\0|550\800\600
-gradient:bottom_bar\linear\0|550\800\600\green\yellow
-```
-
 ### 💡 提示技巧 (Tips)
 
 为获得最佳结果，在向AI描述时：

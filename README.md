@@ -208,22 +208,6 @@ For best results when describing to AI:
 > 
 > 📌 Save the AI-generated syntax as a .txt file, place it in the input directory, and then process it with the Pixel Image Generator.
 
----
-
-## 📂 目录结构 (Directory Structure)
-
-```
-pixel_image_generator/
-├── pixel_image_generator.py  # 主程序 (Main program)
-├── README.md                 # 说明文档 (Documentation)
-├── requirements.txt          # 依赖库清单 (Dependency list)
-├── input/                    # 输入文件目录 (Input file directory)
-├── output/                   # 输出图像目录 (Output image directory)
-└── logs/                     # 日志文件目录 (Log file directory)
-```
-
----
-
 ## 🤝 贡献指南 (Contribution Guidelines)
 
 欢迎为像素图像生成器项目做出贡献：
@@ -268,11 +252,15 @@ If you find this project helpful, you can consider supporting me through the fol
     <tr>
       <td align="center">
         <img src="image/微信收款码.png" alt="微信支付 (WeChat Pay)" width="300"/>
-        <p>微信支付 (WeChat Pay)</p>
       </td>
       <td align="center">
         <img src="image/支付宝收款码.jpg" alt="支付宝支付 (Alipay)" width="300"/>
-        <p>支付宝支付 (Alipay)</p>
+      </td>
+      <td align="center">
+        <a href="https://paypal.me/chy2025?country.x=C2&locale.x=en_US">
+          <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg" alt="PayPal" width="300"/>
+        </a>
+        <p>PayPal</p>
       </td>
     </tr>
   </table>

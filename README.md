@@ -189,14 +189,14 @@ If you find this project helpful, you can consider supporting me through the fol
   <table>
     <tr>
       <td align="center">
-        <img src="image/微信收款码.png" alt="微信支付 (WeChat Pay)" width="300"/>
+        <img src="image/微信收款码.png" alt="微信支付 (WeChat Pay)" width="200"/>
       </td>
       <td align="center">
-        <img src="image/支付宝收款码.jpg" alt="支付宝支付 (Alipay)" width="300"/>
+        <img src="image/支付宝收款码.jpg" alt="支付宝支付 (Alipay)" width="200"/>
       </td>
       <td align="center">
         <a href="https://paypal.me/chy2025?country.x=C2&locale.x=en_US">
-          <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg" alt="PayPal" width="300"/>
+          <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg" alt="PayPal" width="200"/>
         </a>
         <p>PayPal</p>
       </td>

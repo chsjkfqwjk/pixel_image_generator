@@ -110,5 +110,21 @@ pixel_image_generator/
 
 如有问题或建议，请通过以下方式联系：
 
-- 项目地址：https://github.com/yourusername/pixel_image_generator
-- 电子邮件：your.email@example.com
+- 项目地址：https://github.com/chsjkfqwjk/pixel_image_generator
+- 电子邮件：q15052129276@163.com或3527008960@qq.com
+
+
+## 支持一下我
+
+如果您觉得这个项目对您有帮助，可以考虑通过以下方式支持我：
+
+<div align="center">
+  <div style="display: inline-block; margin: 0 20px;">
+    <img src="image/微信收款码.png" alt="微信支付" width="300"/>
+    <p>微信扫码支持我</p>
+  </div>
+  <div style="display: inline-block; margin: 0 20px;">
+    <img src="image/支付宝收款码.jpg" alt="支付宝支付" width="300"/>
+    <p>支付宝扫码支持我</p>
+  </div>
+</div>

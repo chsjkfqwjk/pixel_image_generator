@@ -123,11 +123,9 @@ pixel_image_generator/
     <tr>
       <td align="center">
         <img src="image/微信收款码.png" alt="微信支付" width="300"/>
-        <p>微信扫码支持我</p>
       </td>
       <td align="center">
         <img src="image/支付宝收款码.jpg" alt="支付宝支付" width="300"/>
-        <p>支付宝扫码支持我</p>
       </td>
     </tr>
   </table>

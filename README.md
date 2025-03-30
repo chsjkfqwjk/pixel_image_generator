@@ -23,7 +23,7 @@
 
 1. 克隆或下载本项目到本地
    ```bash
-   git clone https://github.com/yourusername/pixel_image_generator.git
+   git clone https://github.com/chsjkfqwjk/pixel_image_generator.git
    cd pixel_image_generator
    ```
 

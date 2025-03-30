@@ -17,7 +17,7 @@
 
 ### 环境要求
 - Python 3.6+
-- 所需依赖库：PIL (Pillow)、numpy、colorama
+- 所需依赖库：见requirements.txt
 
 ### 安装步骤
 

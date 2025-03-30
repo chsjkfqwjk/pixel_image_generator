@@ -1,0 +1,130 @@
+# 沙滩夕阳海景图 - 1024×768像素
+
+# 基本配置
+config:1024\768\135\206\235
+
+# 定义颜色
+# 天空渐变色
+color:sky_top\25\25\112         # 深蓝色
+color:sky_middle\255\160\100    # 橙色
+color:sky_bottom\255\65\30      # 红橙色
+
+# 海洋渐变色
+color:sea_far\255\140\50        # 橙色反射
+color:sea_middle\30\100\180     # 蓝色中部
+color:sea_near\20\80\120        # 深蓝近处
+
+# 沙滩颜色
+color:sand_dry\240\230\140      # 浅黄色干沙
+color:sand_wet\200\180\120      # 湿沙
+color:sand_dark\180\160\100     # 深色沙
+
+# 太阳颜色
+color:sun_center\255\255\200    # 太阳中心
+color:sun_outer\255\200\70      # 太阳外围
+
+# 云彩颜色
+color:cloud_light\255\220\180   # 亮云
+color:cloud_dark\240\160\130    # 暗云
+
+# 添加其他所需颜色
+color:rock_dark\70\70\80        # 深色石头
+color:rock_medium\80\80\90      # 中色石头
+color:rock_light\90\90\100      # 浅色石头
+color:wave_color\200\220\255    # 海浪颜色
+color:wave_bright\220\230\255   # 亮海浪颜色
+color:footprint\190\170\110     # 脚印颜色
+color:shell_light\240\230\220   # 浅色贝壳
+color:shell_dark\230\220\200    # 深色贝壳
+color:bird\40\40\60             # 鸟颜色
+
+# 定义区域
+
+# 天空区域
+region:sky\0|0\1023|400
+# 使用多层渐变创建天空
+gradient:sky\linear\0|0\0|400\sky_top\sky_middle
+
+# 太阳区域
+region:sun\400|80\624|304\ellipse
+fill:sun\sun_center
+
+# 太阳光晕
+region:sun_glow\360|40\664|344\ellipse
+gradient:sun_glow\radial\512|192\664|344\sun_center\sky_middle
+
+# 海洋区域
+region:sea\0|400\1023|600
+gradient:sea\linear\0|400\0|600\sea_far\sea_near
+
+# 沙滩区域
+region:beach\0|600\1023|767
+gradient:beach\linear\0|600\0|767\sand_wet\sand_dry
+
+# 远处沙滩线
+region:shoreline\0|400\1023|410
+fill:shoreline\sand_wet
+
+# 添加一些云彩
+region:cloud1\100|50\300|100\0|25-200|0-160|50-0|25
+fill:cloud1\cloud_light
+
+region:cloud2\700|150\950|200\0|0-250|0-200|50-30|30-0|0
+fill:cloud2\cloud_light
+
+region:cloud3\300|170\600|230\0|30-300|0-240|60-60|40-0|30
+fill:cloud3\cloud_dark
+
+# 沙滩上的几块石头
+region:rock1\200|650\240|680\ellipse
+fill:rock1\rock_medium
+
+region:rock2\230|640\280|670\ellipse
+fill:rock2\rock_light
+
+region:rock3\250|660\290|685\ellipse
+fill:rock3\rock_dark
+
+# 浅滩区域
+region:shallow\0|590\1023|610
+gradient:shallow\linear\0|590\0|610\sea_near\sand_wet
+
+# 海浪线
+region:wave1\100|550\300|560
+fill:wave1\wave_color
+
+region:wave2\500|570\800|580
+fill:wave2\wave_color
+
+region:wave3\200|590\450|595
+fill:wave3\wave_bright
+
+# 在沙滩上添加脚印
+region:footprint1\400|640\410|650\ellipse
+fill:footprint1\footprint
+
+region:footprint2\420|670\430|680\ellipse
+fill:footprint2\footprint
+
+region:footprint3\440|700\450|710\ellipse
+fill:footprint3\footprint
+
+region:footprint4\460|730\470|740\ellipse
+fill:footprint4\footprint
+
+# 沙滩上的小贝壳
+region:shell1\350|680\360|688\ellipse
+fill:shell1\shell_light
+
+region:shell2\580|710\592|720\ellipse
+fill:shell2\shell_dark
+
+# 天空中的几只飞鸟
+region:bird1\300|100\320|110\0|0-10|10-20|0
+fill:bird1\bird
+
+region:bird2\350|80\370|90\0|0-10|10-20|0
+fill:bird2\bird
+
+region:bird3\380|120\400|130\0|0-10|10-20|0
+fill:bird3\bird 
